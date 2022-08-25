@@ -13,4 +13,9 @@ public class EmployeeController {
 	public ResponseEntity<String> getMsg(){
 		return ResponseEntity.ok("Welcome To GIT Project");
 	}
+	
+	@GetMapping("/show")
+	public ResponseEntity<String> showData(){
+		return ResponseEntity.ok("show data");
+	}
 }
